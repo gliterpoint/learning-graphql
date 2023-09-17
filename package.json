@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/gliterpoint/learning-graphql#readme",
   "dependencies": {
     "@apollo/server": "^4.9.3",
-    "graphql": "^16.8.0"
+    "graphql": "^16.8.0",
+    "nodemon": "^3.0.1"
   }
 }
